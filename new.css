@@ -1,0 +1,758 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #008375;
+    padding: 0 20px;
+    position: sticky;
+    top: 0;
+    transition: all 2s ease;
+    z-index: 1;
+}
+
+.logo h1 {
+    font-size: 40px;
+    color: white;
+}
+
+.manu ul {
+    display: flex;
+}
+
+.manu ul li {
+    list-style: none;
+    padding: 10px;
+}
+
+.manu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.manu ul li a:hover {
+    border-bottom: 2px solid brown;
+}
+
+.manu ul li a select {
+    color: white;
+    background-color: #008375;
+    border: none;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #008376b4;
+    padding: 0 20px;
+   
+}
+
+.head {
+    padding: 9px 0;
+}
+
+.head span {
+    color: white;
+    font-size: 20px;
+}
+
+.head i {
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+.heada {
+    padding: 9px 0;
+}
+
+.heada a {
+    color: white;
+    font-size: 20px;
+    padding: 15px 20px;
+}
+
+.formhead {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #008375;
+    width: 100%;
+    height: 100vh;
+}
+
+.form {
+
+    background: #008375;
+    width: 650px;
+    height: 200px;
+}
+
+.imgs {
+    width: 700px;
+    height: 500px;
+
+
+}
+
+.imgs img {
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.form h1 {
+    padding-left: 20px;
+    color: white;
+    font-size: 35px;
+}
+
+.form p {
+    color: white;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.form a {
+    display: inline-block;
+    border: 1px solid white;
+    margin-left: 20px;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 7px 15px;
+    text-decoration: none;
+    color: white;
+    margin: 30px 20px;
+}
+
+.form span {
+    font-size: 20px;
+    color: white;
+}
+
+.form i {
+    border: 2px solid white;
+    border-radius: 50%;
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.positions {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    position: absolute;
+    top: 685px;
+    height: 40vh;
+    margin: auto;
+}
+
+.positionsa {
+    margin: auto;
+    width: 250px;
+    border-radius: 20px;
+    height: 40vh;
+    background-color: rgb(8, 156, 141);
+}
+
+.positionsa p {
+    font-size: 55px;
+    padding-top: 40px;
+    color: white;
+    text-align: center;
+}
+
+.positionsa h1 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.aboutsh {
+    margin-top: 350px;
+    width: 100%;
+}
+
+.aboutsh p {
+    padding: 10px 0;
+    font-size: 18px;
+}
+
+.impactab p,.impactaa p{
+    text-align: start;
+}
+.impactab p i,.impactaa p i {
+    padding-right: 10px;
+    color: #008375;
+}
+
+.impactaa,
+.impactab,
+.impactcb {
+    width: 650px;
+}
+
+
+.impactca {
+    width: 800px;
+    height: 400px;
+}
+
+.impactca img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.impactaa img,
+.impactab img {
+    padding: 10px 0;
+    width: 100%;
+}
+
+.impactb,
+.impacte,
+.portfolioa,
+.Pricinga {
+    width: 100%;
+}
+
+.impactb img {
+    margin: 70px;
+    width: 100px;
+}
+
+.impactcb p span {
+    font-size: 50px;
+    color: green;
+}
+
+.impactcb p ins {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.impactd {
+
+    width: 100%;
+    height: 100vh;
+    background-image: url('img2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.impactd h1 {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 270px;
+    color: white;
+}
+
+.impactd p {   
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding: 0 50px;
+}
+
+.impactd h2 {
+    text-align: center;
+}
+
+.impactd h2 a {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 18px;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+    border: 1px solid white;
+}
+
+.impacte h1 {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.impacte p,
+.impactf p {
+    text-align: center;
+    font-size: 18px;
+}
+
+.impactea,
+.impact,
+.impactc,
+.impactaab,
+.postsaa,
+.portfolioc,
+.Teamb,
+.Pricingb,
+.Questions,
+.contactssa {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 120px auto;
+}
+
+.impacteb {
+    margin-bottom: 25px;
+    width: 26%;
+    border-radius: 30px;
+    box-shadow: 2px 3px 3px 4px grey;
+}
+
+.impacteb i {
+    padding: 30px;
+    font-size: 50px;
+}
+
+.impacteb h1 {
+    margin: 0 20px 0;
+    text-align: start;
+    color: #000;
+    font-size: 20px;
+    
+}
+
+.impacteb p {    padding-bottom: 20px;
+    text-align: start;
+    font-size: 18px;
+    padding-right: 10px;
+
+}
+.impactfa{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.impacteb a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    padding: 5px 18px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.impactf {
+    margin: 70px auto;
+    width: 100%;
+}
+
+.impactf h1,
+.portfolioa h1,
+.aboutsh h1,
+.Teama h1,
+.Pricinga h1,
+.contactss h1,
+.Questionsa h1,
+h2,
+.Pricingba h1,
+.posts h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.impactf p {
+    margin-bottom: 50px;
+}
+
+.impactfaa {padding: 20px 0;
+    box-shadow: 2px 3px 4px 3px gray;
+    border-radius: 30px;
+    width: 26%;
+}
+
+.impactfaa p {
+    font-size: 15px;
+    padding: 0px 30px;
+}
+
+.impactfb {
+    width: 25%;
+}
+
+.impactfa img {
+    margin-top: 20px;
+    border-radius: 30px;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.impactfc {
+    width: 45%;
+}
+
+.impactfc h1 {
+    font-size: 20px;
+}
+
+.impactfc p {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.impactfc span {
+    padding-left: 5px;
+    color: yellow;
+    text-align: center;
+}
+
+.impactfc span i {
+    padding-left: 15px;
+}
+
+.portfoliob {
+    width: 30%;
+    margin: auto;
+}
+
+.portfoliob ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.portfoliob ul li {
+    list-style: none;
+    padding: 0 10px;
+}
+
+.portfoliob ul li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.portfolioca { overflow: hidden;
+    width: 26%;
+    border-radius: 30px;
+    box-shadow: 2px 3px 4px 3px gray;
+    margin: 10px auto;
+    transition: all 1s linear;
+}
+
+.portfolioca img {
+    border-radius: 30px;
+    width: 100%;
+}
+
+.portfolioca img:hover {
+    transform: scale(1.1);
+   
+    
+}
+
+.portfolioca h1 {
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+.portfolioca p {
+    text-align: start;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.Teama {
+    width: 100%;
+    margin: 50px auto;
+}
+
+.Teama p,
+.portfolioa p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.Teamc {
+    width: 22%;
+    border-radius: 30px;
+    box-shadow: 2px 3px 4px 3px gray;
+}
+
+.Teamc img {
+    border-radius: 30px;
+    width: 100%;
+}
+
+.Teamc h1,
+p {text-align: center;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.Teamc i {
+    font-size: 30px;
+    padding-left: 38px;
+    padding-bottom: 20px;
+}
+
+.Pricinga p {    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+.Pricingba {
+    padding: 20px 0;
+    
+    width: 23%;
+    border-radius: 30px;
+    box-shadow: 4px 3px 4px 3px grey;
+}
+
+.Pricingba h2 {
+    margin: 30px 0;
+    text-align: center;
+    font-size: 50px;
+    color: blue;
+}
+
+.Pricingba p a {
+    border-radius: 30px;
+    text-decoration: none;
+    border: 1px solid blue;
+    padding: 10px 20px;
+}
+
+.Questionsa {
+    width: 25%;
+}
+
+.Questionsa h1,
+h2 {
+    padding: 10px 0;
+}
+
+.Questionsb {
+    width: 65%;
+    text-align: center;
+}
+
+.Questionsb details {
+    margin: auto;
+    width: 70%;
+    margin-bottom: 20px;
+    box-shadow: 2px 3px 3px 4px grey;
+    padding: 20px 0;
+    font-size: 25px;
+}
+
+.Questionsb details p {
+    font-size: 18px;
+    text-align: center;
+    padding-left: 20%;
+}
+
+.posts {
+    width: 100%;
+    margin: 50px auto;
+}
+
+.posts p {
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.postsa {
+    margin: 10px auto;
+    width: 25%;
+    border-radius: 30px;
+    box-shadow: 3px 4px 3px 4px grey;
+}
+
+.postsa img {
+    border-radius: 30px;
+    width: 100%;
+}
+
+.postsa p,
+.postsbb h1 {
+    font-size: 15px;
+}
+
+.postsa h1 {
+    text-align: start;
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.postsb {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.postsba {
+    width: 10%;
+}
+
+.postsba img {
+    margin-left: 10px;
+    width: 100%;
+    border-radius: 30px;
+    border-radius: 50%;
+}
+
+.postsbb {
+    width: 50%;
+}
+
+.contactss {
+    margin: 50px auto;
+    width: 100%;
+}
+
+.contactssab {
+    width: 35%;
+    background-color: #008375;
+    align-items: center;
+}
+
+.contactssabb {
+    width: 100%;
+    background-color: #12e1cdb4;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactssaba {
+    width: 20%;
+}
+
+.contactssabb {
+    width: 95%;
+}
+
+.contactssabb h1 {
+    color: white;
+    font-size: 35px;
+}
+
+.contactssabb p {
+    color: white;
+    font-size: 15px;
+}
+
+.contactssac {
+    width: 57%;
+}
+
+.contactssac input {
+    padding: 20px;
+    margin: 10px;
+    width: 100%;
+}
+
+.contactssac textarea {
+    margin: 10px;
+    width: 100%;
+    padding: 20px;
+}
+
+.contactssac p {
+    text-align: center;
+}
+
+.contactssac p a {
+    color: white;
+    background-color: #008375;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid blue;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin: 20px auto;
+}
+
+.futtor {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #008375;
+}
+
+.futtora {
+    width: 30%;
+}
+
+.futtora h1 {
+    color: white;
+    font-size: 35px;
+    padding: 20px;
+}
+
+.futtora p,
+.futtorb p,
+.contactss p {
+    text-align: start;
+    
+    padding-bottom: 20px;
+    color: white;
+    font-size: 18px;
+}
+
+.futtora i,
+.contactssaba i {
+   
+    color: white;
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+.futtorb {
+    width: 20%;
+}
+
+.lfuttor {
+    padding: 50px;
+    width: 100%;
+    background-color: #008375;
+}
+
+.lfuttor h1,
+h3 {
+    text-align: center;
+    padding: 10px;
+    font-size: 22px;
+    color: white;
+}
